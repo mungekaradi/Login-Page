@@ -1,0 +1,77 @@
+ body {
+    margin: 0px;
+}
+header {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 5px;
+}
+.Lpage {
+    height: 400px;
+    text-align: center;
+    border: 2px solid white;
+    max-width: 400px;
+    margin-left: 37%;
+    border-radius: 10px;
+    box-shadow: 0 3px 6 0;
+    margin-top: 80px;
+    backdrop-filter: blur(4.5px);
+}
+h1 {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+p {
+    color: white;
+}
+.cb {
+    color: white;
+}
+.account {
+    color: white;
+}
+#fname {
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-right: 65px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+#fname::placeholder {
+    color: white;
+}
+#pass {
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-right: 65px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+#pass::placeholder {
+    color: white;
+}
+
+button {
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: 2px solid white;
+}
+footer {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 140px;
+}
